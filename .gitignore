@@ -1,0 +1,15 @@
+@"
+.venv/
+__pycache__/
+*.pyc
+
+data/raw/
+*.rar
+*.zip
+
+.ipynb_checkpoints/
+
+.env
+.DS_Store
+"@ | Set-Content .gitignore
+data/processed/
